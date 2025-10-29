@@ -2,7 +2,7 @@
 
 This project was conducted during an internship at **Wageningen Livestock Research** to perform a statistical analysis on **RFID feeder log data**. The primary goal was to identify and validate **behavioural indicators** for the **early detection of biting-related health deviations** in weaned piglets.
 
-| **Focus** | **Precision Livestock Farming (PLF), Behavioral Analysis, Animal Welfare** |
+| **Focus** | **Precision Livestock Farming (PLF), Behavioural Analysis, Animal Welfare** |
   | :--- | :--- |
   | **Duration** | July 2024 - January 2025 |
   | **Tool** | **R Studio** |
@@ -47,9 +47,7 @@ Based on the statistical analysis, the hypothesis of differential feeding patter
 
 Statistical plot confirming that sick piglets exhibit **significantly lower** Total Meal Duration and Meal Count compared to healthy piglets during the critical period (Week 6).
 
-<p align="center">
-  ![Comparison of feeding metrics between Healthy and Sick Pigs in Week 6](plots/Comparision_of_feeding_metrics_wk6.jpg)
-</p>
+![Comparison of feeding metrics between Healthy and Sick Pigs in Week 6](plots/comparision_of_feeding_metrics_wk6.jpg)
 
 ---
 
