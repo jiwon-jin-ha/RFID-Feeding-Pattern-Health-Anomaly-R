@@ -93,11 +93,3 @@ clean_and_filter_data <- function(raw_data, pig_info_path = "./data/pig_id_and_p
   
   return(cleaned_data)
 }
-
-# Example Usage: 
-# ----------------------------------------------------------------------
-# # Define the root folder where PC subfolders are located
-# # root_folder <- "C:/Users/Jane/Documents/2024/Internship/RFID_20240705"
-# # pig_log_data <- combine_raw_logs(root_folder, "2024-04-09")
-# # cleaned_data_4_09 <- clean_and_filter_data(pig_log_data)
-# # write.csv(cleaned_data_4_09, file = "./data/2024-04-09_cleaned.csv", row.names = FALSE)

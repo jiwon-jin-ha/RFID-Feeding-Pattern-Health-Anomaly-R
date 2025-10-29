@@ -70,12 +70,3 @@ summarize_meal_events <- function(data_with_meals) {
   
   return(meal_summary)
 }
-
-# ----------------------------------------------------------------------
-# Example Usage:
-# # 1. Define meal events (Bout Logic applied)
-# data_with_meals <- define_meal_events(processed_data, meal_break_threshold = 58.5)
-# 
-# # 2. Summarize each event to get the actual meal duration
-# final_meal_events <- summarize_meal_events(data_with_meals)
-# # write.csv(final_meal_events, file = "./data/final_meal_events.csv", row.names = FALSE)

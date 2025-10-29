@@ -53,15 +53,3 @@ aggregate_feeding_patterns <- function(meal_data) {
   
   return(aggregated_data)
 }
-
-# ----------------------------------------------------------------------
-# Example Usage: 
-# ----------------------------------------------------------------------
-# # 1. Load data from the previous step (e.g., final_meal_events.csv from 02)
-# # final_meal_events <- read.csv("./data/final_meal_events.csv") 
-# 
-# # 2. Aggregate and filter the data
-# # pig_daily_metrics <- aggregate_feeding_patterns(final_meal_events)
-# 
-# # 3. Save the file for the next step (Outlier/Statistical analysis)
-# # write.csv(pig_daily_metrics, file = "./data/pig_daily_metrics.csv", row.names = FALSE)
